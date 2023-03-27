@@ -1,0 +1,45 @@
+//classs Selectors
+.featureProp{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+//classs Selectors
+.featurePropItem{
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+//classs Selectors
+.featurePropImg{
+     width: 100%;
+}
+//classs Selectors
+.featurePropName{
+    font-weight: bold;
+}
+
+.featurePropCity{
+    font-weight: 300;
+}
+//classs Selectors
+.featurePropPrice{
+    font-weight: 500;
+}
+
+.featurePropRating>button{
+    background-color:#ef670d;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.featurePropRating>span{
+    font-size: 14px;
+}
+

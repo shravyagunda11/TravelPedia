@@ -1,0 +1,127 @@
+.listContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+//class selectors 
+.destinationIp{
+    height: 30px;
+}
+//class selectors 
+.listSearchOptionItem>input{
+    height: 30px;
+    border-radius: 10px;
+   border: none;
+}
+//class selectors 
+button{
+    border-radius: 10px;
+}
+//class selectors 
+.listWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap:20px;
+}
+.listDiv{
+    flex: 1;
+}
+.listSearch{
+    
+    background-color: rgb(94, 57, 129);
+    padding: 10px;
+    border-radius: 10px;
+    position: static;
+    width: 225px;
+    height: max-content;
+    top: 10px;
+    margin-bottom: 40px;
+}
+.weather_api{
+    height: 300px;
+    position: sticky;
+    width: 225px;
+    padding: 10px;
+    
+    border-radius: 10px;
+    background-color: rgb(94, 57, 129);
+}
+
+.listTitle{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+.humidity,.winds,.description-temp,.temperature>h1{
+    color: white;
+}
+
+
+.listResult{
+    flex: 3;
+}
+.listSearchItem>input{
+    border-radius: 10px;
+    border: none;
+}
+.listSearchItem>span{
+    border-radius: 10px;
+    border: none;
+}
+.listSearchItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+
+}
+
+.listSearchItem>label{
+    font-size: 12px;
+    color: white;
+
+}
+
+.listSearchInput>input{
+    height: 30px;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.listSearchItem>span{
+    height: 30px;
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.listSearchOptionItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.lsOptionInput{
+    width: 50px;
+}
+
+.listSearchOptions{
+    padding:10px;
+}
+
+.listSearch>button{
+    padding: 10px;
+    background-color:#ef670d;
+    color: white;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+}

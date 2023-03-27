@@ -1,0 +1,158 @@
+//classs Selectors
+.header{
+    background-color: rgb(94, 57, 129);
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+//classs Selectors
+.to{
+    color: black;
+}
+//classs Selectors
+.contianer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+
+.contianer.list {
+//classs Selectors
+margin: 20px 0px 0px 0px;
+}
+.headerList{
+    display: flex;
+    margin-bottom: 40px;
+    gap: 40px;
+}
+
+.headerListItems{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.radiobtn1>label{
+    color: gray;
+}
+
+.headerListItems:hover{
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.headerDescription{
+    margin: 20px 0px;
+}
+
+.headerBtn{
+    background-color:  #ef670d;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    border:none;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.headerSearch{
+    height: 30px;
+    background-color: white;
+    border: 3px solid rgb(7, 7, 6);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+
+}
+//classs Selectors
+.headIcon{
+    color: grey;
+}
+//classs Selectors
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.radiobtn{
+    flex-direction: column;
+}
+.headerSearchIp{
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.headerSearchDate, .headerSearchPerson{
+    color: grey;
+    cursor: pointer;
+}
+
+.radiobtn>input{
+   vertical-align: middle;
+}
+
+.startdate,.enddate{
+    border: none;
+    font-size: 14px;
+   
+}
+
+//classs Selectors
+.options{
+    position: absolute;
+    background-color: white;
+    top:50px;
+    color: grey;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px -5px;
+    z-index: 2;
+    font-size: 14px;
+}
+
+.optionItems{
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.optionCtr{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+//classs Selectors
+.flightbtn{
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+
+
+.optionCtrBtn{
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(53, 53, 117);
+    color:black;
+    cursor: pointer;
+    background-color: white;
+}
+
+.datepicker{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+

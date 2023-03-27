@@ -1,0 +1,31 @@
+.proList{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+//classs Selectors
+.proListItems{
+    border-radius: 10px;
+    overflow: hidden;
+    cursor:pointer;
+}
+//classs Selectors
+.imgpro{
+    width: 300px;
+    height: 250px;
+}
+//classs Selectors
+.proTitles>h1{
+   font-size: 18px;
+}
+
+//classs Selectors
+.proTitles>h2{
+    font-size: 14px;
+    font-weight: 300;
+}
+.headings{
+    text-transform: capitalize;
+}

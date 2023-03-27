@@ -1,0 +1,36 @@
+.navBar{
+    height: 50px;
+    background-color: rgb(94, 57, 129);
+    display: flex;
+    justify-content: center;
+}
+//classs Selectors
+.navBarContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+//classs Selectors
+.logo{
+    font-weight: 600;
+}
+//classs Selectors
+.navBtnLogin, .navBtnReg{
+ margin-left: 20px;
+ border: none;
+ padding: 5px 10px;
+ cursor: pointer;
+ color:white;
+ background-color: #ef670d;
+ border-radius: 5px;
+
+}
+//classs Selectors
+.linkingwebpage
+{
+    text-decoration: none;
+    color: aliceblue;
+}

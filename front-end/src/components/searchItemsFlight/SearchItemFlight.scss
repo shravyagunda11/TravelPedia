@@ -1,0 +1,73 @@
+.sitime1{
+    margin-right: 150px;
+}
+
+.siplaces{
+    font-size: larger;
+}
+//classs Selectors
+.sitime1,.sitime2{
+    font-size: 14px;
+    color: grey;
+}
+//classs Selectors
+.siduration{
+    margin-left: 80px;
+    color: grey;
+    font-size: 14px;
+}
+//classs Selectors
+.sistops{
+    margin-left: 80px;
+    color: grey;
+    font-size: 14px;
+}
+//classs Selectors
+.mainContainer{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+//classs Selectors
+.searchItemss
+{
+    display: flex;
+}
+
+.onclickVisible{
+    margin-left: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.ocv1Element{
+    margin-right: 40px;
+}
+
+.vl{
+    border-left: 4px solid green;
+    height: 100px;
+    margin-right: 40px;
+}
+
+.ocvTime{
+    margin-right: 40px;
+    margin-left: -10px;
+}
+
+.ocvTimeCnt{
+    background-color: rgb(156, 153, 153,.5) ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* .ocvTime>.ocvTimeCnt{
+    margin-top: 10px;
+    margin-bottom: 10px;
+} */

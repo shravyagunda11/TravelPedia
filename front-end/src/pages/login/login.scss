@@ -1,0 +1,65 @@
+.login
+{
+    border: 1px solid black;
+    width :15em;
+    height: 20em;
+    margin-left: 35em;
+    margin-top: 10em;
+    background-color: rgb(94, 57, 129);
+    border-radius: 1em;
+    padding: 1em;
+}
+//class selectors 
+.loginContainer
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+//class selectors 
+.loginInput2
+{
+    width: auto;
+    height: auto;
+    row-gap: 2em;
+    padding: .5em;
+    border-radius: .5em;
+    margin-bottom: 2em;
+}
+//class selectors 
+.loginInput
+{
+    margin-top: 4em;
+    margin-bottom: 2em;
+    width: auto;
+    height: auto;
+    row-gap: 2em;
+    padding: .5em;
+    border-radius: .5em;
+}
+
+.loginButton
+{
+    background-color: #ef670d;
+    border: none;
+    width: auto;
+    justify-content: center;
+    color: white;
+    padding: .5em;
+   
+}
+
+.refLink
+{
+    margin-top: .4em   ;
+    color: white;
+    text-decoration: none;
+    
+}
+.errors
+{
+    row-gap: 1em;
+    margin-top: .2em;
+    color: rgb(246, 148, 148);
+}
+
