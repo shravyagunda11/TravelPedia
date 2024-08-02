@@ -1,10 +1,12 @@
 # TravelPedia
 ABOUT
 
-Travelpedias is a travel website. Here the user registers and logs in and can book flight tickets and hotels according to their preferences, date of avalability, price ranges and other factors, which could be destination, time, class, etc. User gets to create an account on our platform which enables the user to look back at your past bookings, current booking, status of your travel plans and also bookmarks of potential travel plans.
+Developed a robust travel website, Travelpedias, where users can register, log in, and book flight tickets and hotels based on their preferences, availability, price ranges, and other factors such as destination, time, and class. The platform allows users to create accounts, enabling them to review past bookings, check current booking statuses, and bookmark potential travel plans.
 
-•	Designed and developed a travel website which allows users to book flight tickets and hotels
-•	Utilized HTML, CSS, JavaScript, and React to create a responsive and intuitive front-end interface.
-•	Developed a back-end architecture using Node.js and Express.js, implementing RESTful API principles for efficient communication between the front-end and back-end.
-•	Utilized Cloudinary, to enable seamless uploading and storage of images for hotels and flights. Used MongoDB to efficiently manage and store data related to bookings, customers, and reservations.
-•	Implemented OpenWeather and NodeMailer API.
+Front-End Development: Designed and developed a responsive and intuitive user interface using HTML, CSS, JavaScript, and React. Ensured seamless user experience across various devices and screen sizes.
+Back-End Architecture: Built a scalable back-end architecture using Node.js and Express.js, adhering to RESTful API principles to facilitate efficient communication between the front-end and back-end.
+Image Management: Integrated Cloudinary for seamless uploading and storage of images related to hotels and flights, enhancing the visual appeal and functionality of the platform.
+Database Management: Utilized MongoDB to efficiently manage and store data pertaining to bookings, customers, and reservations, ensuring quick and reliable data retrieval.
+Weather and Notifications: Implemented OpenWeather API to provide users with up-to-date weather information for their travel destinations, and NodeMailer API for automated email notifications related to bookings and account activities.
+Search and Filtering: Developed advanced search and filtering options, allowing users to find flights and hotels based on various criteria such as price, location, rating, and availability.
+User Reviews and Ratings: Enabled users to leave reviews and ratings for flights and hotels, helping future travelers make informed decisions based on peer feedback.
